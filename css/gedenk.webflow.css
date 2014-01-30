@@ -8,13 +8,18 @@ h1 {
   margin: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 10px;
   background-color: #a32c28;
+  background-image: -webkit-linear-gradient(#a32c28, #d45b55);
+  background-image: -o-linear-gradient(#a32c28, #d45b55);
+  background-image: linear-gradient(#a32c28, #d45b55);
   font-family: Lato, sans-serif;
   color: white;
   font-size: 38px;
   line-height: 44px;
   font-weight: 400;
   text-align: center;
+  text-transform: uppercase;
 }
 h2 {
   margin: 10px;
@@ -73,7 +78,14 @@ p {
   padding-left: 10px;
 }
 .slide-navigator {
-  display: none;
+  position: static;
+  display: block;
+  height: 20px;
+  padding-top: 0px;
+  clear: both;
+}
+.slide-arrow {
+  width: 0px;
 }
 @media (max-width: 991px) {
 }
@@ -83,4 +95,7 @@ p {
   }
 }
 @media (max-width: 479px) {
+  p {
+    float: left;
+  }
 }
