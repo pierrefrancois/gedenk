@@ -10,6 +10,7 @@ h1 {
     background-image: url('leatherred.png');
     color: rgb(255,204,0); /* gold */
     font-family: Georgia, "Bitstream Charter", serif;
+    text-transform: none !important;
 }
 h2 {
     font-family: Georgia, "Bitstream Charter", serif;
